@@ -1,0 +1,34 @@
+#ifndef __PCA_REGS_H
+#define __PCA_REGS_H
+
+#define PCA9685_ADDR 0x60
+#define MODE1_ADDR 0x00
+#define MODE2_ADDR 0x01
+#define PCA9685_SPEED_HZ 100000
+#define PRE_SCALE_ADDR 0xFE
+#define ALL_LED_ON_L_ADDR 0xFA
+#define ALL_LED_ON_H_ADDR 0xFB
+#define ALL_LED_OFF_L_ADDR 0xFC
+#define ALL_LED_OFF_H_ADDR 0xFD
+
+#define LED0_ON_L_ADDR 0x06
+#define LED0_ON_H_ADDR 0x07
+#define LED0_OFF_L_ADDR 0x08
+#define LED0_OFF_H_ADDR 0x09
+
+#define LED1_ON_L_ADDR 0x0A
+#define LED1_ON_H_ADDR 0x0B
+#define LED1_OFF_L_ADDR 0x0C
+#define LED1_OFF_H_ADDR 0x0D
+
+#define LED2_ON_L_ADDR 0x0E
+#define LED2_ON_H_ADDR 0x0F
+#define LED2_OFF_L_ADDR 0x10
+#define LED2_OFF_H_ADDR 0x11
+
+#define LED3_ON_L_ADDR 0x12
+#define LED3_ON_H_ADDR 0x13
+#define LED3_OFF_L_ADDR 0x14
+#define LED3_OFF_H_ADDR 0x15
+
+#endif // __PCA_REGS_H
